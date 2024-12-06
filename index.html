@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsualizador de Páginas Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f4f4f9;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        iframe {
+            width: 90%;
+            height: 80%;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Previsualizador de Páginas Web</h1>
+        <p>Inserta la URL de la página que deseas cargar dentro del código fuente.</p>
+    </header>
+    <!-- Modifica la URL dentro del atributo "src" para cargar tu página deseada -->
+    <iframe 
+        src="https://www.youtube.com/watch?v=neqw9WZLduo" 
+        title="Previsualización de Página Web" 
+        allowfullscreen>
+    </iframe>
+</body>
+</html>
